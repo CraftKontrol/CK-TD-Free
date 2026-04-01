@@ -2,7 +2,10 @@
 ## Version 1.004
 ### Author: Arnaud Cassone © Artcraft Visuals
 
-This is a GLSL implementation of 4D procedural noises. It includes three versions of the shader : TOP, MAT, POP. The TOP version is a pixel shader that generates a noise texture. The MAT version is a material shader that can be used to create 3D noise effects. The POP version is a compute shader that can be used to generate noise values for point clouds or other data.
+This is a GLSL implementation of 4D procedural noises. It includes three versions of the shader : TOP, MAT, POP. 
+- The TOP version is a pixel shader that generates a noise texture. 
+- The MAT version is a material shader that can be used to create 3D noise effects. 
+- The POP version is a compute shader that can be used to generate noise values for point clouds or other data.
 
 ## Noise Types
 
