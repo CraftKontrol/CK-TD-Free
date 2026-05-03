@@ -1,0 +1,27 @@
+# Visual Studio build output — keep only the Release DLL
+
+!bin/Release/Dmx4AllDat.dll
+obj/
+
+# Visual Studio local files
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# Compiler/linker intermediates
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.iobj
+*.ipdb
+*.tlog
+
+
+
+# OS
+Thumbs.db
+desktop.ini
