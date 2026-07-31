@@ -1,6 +1,6 @@
 ﻿# GridPOPLOD 
- Version 1.039
-# Author: Arnaud Cassone © Artcraft Visuals
+## Version 1.038
+### Author: Arnaud Cassone © Artcraft Visuals
 
 A geometry-clipmap style LOD plane: dense tessellation near the camera,
 coarse far away, entirely driven by one `GLSL Advanced POP` compute shader.
@@ -15,7 +15,7 @@ time when the camera crosses a snap boundary).
   grid. Level 0 spacing = `Mintess`; each further level doubles the spacing
   (`Mintess * 2^level`), automatically stopping once coverage reaches
   `Fardist` or spacing would exceed `Maxtess` (whichever comes first).
-- Each level's own window snaps to the nearest multiple of its spacing, so
+-    of its spacing, so
   vertices are always exactly on that level's world-space lattice - fixed,
   not continuously camera-dependent.
 - Level `L>0` leaves a hole in its inner half where the next finer level
